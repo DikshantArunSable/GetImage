@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/search.css">
+</head>
+
+<body>
+  
+  <div class="navbar">
+    <div>
+      <a class="login">Login</a>
+      <a class="register">Register</a>
+    </div>
+  </div>
+
+<header class="header-section">
+        <div class="header-content">
+            <h1 class="logo">Getimage</h1>
+            <p class="sub-line">the best royalty free images you can find here.</p>
+
+            <form action="search.html">
+                <input type="text" autocomplete="off" name="search" class="search-box" placeholder="search image">
+                <button class="search-btn" type="submit">search</button>
+            </form>
+        </div>
+</header>
+
+<!-- popup window -->
+<div class="image-popup">
+    <button class="close-btn">x</button>
+    <a href="#" class="download-btn">download image</a>
+    <img src="img/img (1).png" class="large-img" alt="">
+    <button class="controls pre-btn"><</button>
+    <button class="controls nxt-btn">></button>
+</div>
+
+<section class="gallery">
+    
+</section>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
